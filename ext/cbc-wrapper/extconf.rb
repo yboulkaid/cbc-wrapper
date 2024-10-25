@@ -7,6 +7,7 @@ require 'mkmf'
 
 dir_config('cbc-wrapper')
 dir_config('cbc')
+pkg_config('cbc')
 
 succeed = true
 
